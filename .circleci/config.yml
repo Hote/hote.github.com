@@ -10,17 +10,4 @@ workflows:
   welcome:
     # Run the welcome/run job in its own container
     jobs:
-      build:
-        docker:
-          - image: juristr/hugo-docker
-        steps:
-          - checkout
-          - run:
-              name: Avoid hosts unknown for a github
-              command: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStringHostKeyChecking no\n" > ~/.ssh/config
-          - run:
-              name: "Install container dependecies for deploy"
-              command: apk --no-cache add git openssh
-          - run:
-              name: "Build and deploy to Github"
-              command: ./scripts/deploy.sh
+      - welcome/run
