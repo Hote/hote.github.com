@@ -13,20 +13,17 @@
 # https://learnxinyminutes.com/docs/yaml/
 #
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 
-title: Scott's Markdown-based Haven
-email: fantasticSie@hotmail.com
-author: scott.hsieh
+
+title: hote's practice
+email: hote
+author: hote
 description: >- 
-  This website is purely for displaying content noted on a markdown file, i.e., the notes from the keynote spoken by Andy Jassy at an online conference, AWS re:Invent 2020.
+   for publish web site testing
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-facebook_username: ScottXieh
-twitter_username: fantasticHsieh
+facebook_username:
+twitter_username:
 
 # Build settings
 markdown: kramdown
