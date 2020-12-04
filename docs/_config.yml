@@ -28,6 +28,83 @@ twitter_username:
 # Build settings
 markdown: kramdown
 theme: minima
+
+
+google:
+    # Google Analytics Property ID
+    # Allows tracking site pageviews and other events using Google Analytics.
+    # Default: not set (Google Analytics is not used to track site pageviews)
+    analytics_property_id: G-0BQXKSTHFW
+
+    # If you do not know your Property ID, take a look at
+    # https://support.google.com/analytics/answer/1032385
+
+    # For more info on Google Analytic, please refer to
+    # https://support.google.com/analytics/
+
+    # Google Custom Search Engine ID
+    # Allows visitors to search the website without leaving it, using a custom
+    # search engine powered by Google.
+    # Default: not set (instead of a CSE, Google is used to handle searching)
+    # cse_id: 123456789012345678901:abcdefghijk
+
+    # If you do not know your CSE ID, take a look at
+    # https://support.google.com/customsearch/answer/2649143
+
+    # For more info on Google Custom Search Engine, please refer to
+    # https://support.google.com/customsearch/
+
+    # Google AdSense settings
+    # Allows to earn money by showing ads on the website.
+    adsense:
+        # Google AdSense publisher ID
+        # Your publisher ID is the unique identifier for your AdSense account.
+        # Default: not set (Google AdSense is not used to show ads)
+        publisher_id: pub-7036520133173561
+
+        # If you do not know your publisher ID, take a look at
+        # https://support.google.com/adsense/answer/105516
+
+        # Ad unit ID for the ad displayed at the top of the page content, bellow
+        # the title, if in a page or post, or after the first post, if in a post
+        # listing
+        # Default: not set (no ad is displayed at the top)
+        # content_ad_unit_1: 1234567890
+
+        # Ad unit ID for the ad displayed inside the page content, randomly
+        # placed between paragraphs, if in a page or post, or between posts, if
+        # in a post listing
+        # Default: not set (no ad is displayed in the page content)
+        # content_ad_unit_2: 0987654321
+
+        # Ad unit ID for the ad displayed in the sidebar
+        # Default: not set (no ad is displayed in the sidebar)
+        # sidebar_ad_unit: 1231231231
+
+        # Note: use only responsive ad units
+
+    # For more info on Google AdSense, please refer to
+    # https://support.google.com/adsense/
+
+##############
+# Pagination #
+##############
+
+# Specifies how many items should be displayed per page
+# Default: not set (pagination disabled)
+# paginate: 10
+
+# You may also specify the destination of the pagination pages
+# Default: /page:num (for example, /page2, /page3, etc)
+# paginate_path: "/blog/page/:num/"
+
+# For more info on pagination, please refer to
+# http://jekyllrb.com/docs/pagination/
+
+
+
+
+
 plugins:
   - jekyll-feed
 
@@ -50,3 +127,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
